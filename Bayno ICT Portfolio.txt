@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bayno Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#portfolio" class="w3-button w3-block w3-black">PORTFOLIO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#gallery" class="w3-button w3-block w3-black">GALLERY</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">by Danicah Maye B. Bayno</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Personal<br>Portfolio</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">VIII - Einstein</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <p>Hi there, I am Danicah Bayno! I am currently studying at Ramon Teves Pastor Memorial — Dumaguete Science High School and a student from Grade 8 - Einstein. I live in Dumaguete City, Negros Oriental. I enjoy reading books and watching movies, as well as sleeping and having fun with my friends!</p>
+    <br>
+    <p><strong>First name:</strong> Danicah Maye</p>
+    <p><strong>Last name:</strong> Bayno</p>
+    <p><strong>Age:</strong> 13 Years</p>
+    <p><strong>Nationality:</strong> Filipino</p>
+    <p><strong>Occupation:</strong> Student</p>
+  </div>
+</div>
+
+<div class="w3-container" id="portfolio">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PORTFOLIO</span></h5>
+<div class="w3-content">
+
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="img_5terre.jpg" style="width:100%;min-height:230px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>HTML iFrames</h2>
+  <p>
+  — An HTML iframe is used to display a web page within a web page.
+  </p>
+  <p>
+  <strong>Group Members:</strong> Bayno, Espina, Mandajoyan
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="img_monterosso.jpg" style="width:100%;min-height:230px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>HTML Frames</h2>
+  <p>
+  — The <i>frame</i> tag was used in HTML 4 to define one particular window (frame) within a <i>frameset</i>.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="img_vernazza.jpg" style="width:100%;min-height:230px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Internal CSS</h2>
+  <p>
+  — An internal CSS is used to define a style for a single HTML page. It is defined in the <i>head</i> section of an HTML page, within a <i>style</i> element.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="img_manarola.jpg" style="width:100%;min-height:230px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>HTML Forms</h2>
+  <p>
+  — An HTML form is used to collect user input.
+  </p>
+  <p>
+  <strong>Group members:</strong> Bayno, Edjec, Ferrater, Tiu
+  </p>
+</div>
+
+<div class="w3-container" id="gallery" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MY GALLERY</span></h5>
+    <p style="text-align:center;"><i>Life lately at RTPM–DSHS..</i></p>
+</div>
+<div class="w3-third">
+<div class="w3-card">
+<img src="C:\Users\User\Documents\ICT FINAL OUTPUT – BAYNO\1.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card">
+<img src="img_5terre.jpg" style="width:100%">
+<div class="w3-container">
+</div>
+</div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
